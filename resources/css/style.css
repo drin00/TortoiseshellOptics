@@ -117,3 +117,22 @@ main{
   height: 1.5rem;
   width: auto;
 }
+
+@media only screen and (max-width: 768px){
+
+  .section{
+    width:100%;
+  }
+  main{
+    height: 22rem;
+    padding-top: 0;
+    background-position: center;
+  }
+  .subbanner{
+    padding: 0.75rem 4rem;
+    font-size: 1.33rem;
+    top: 5rem;
+    left: 0;
+    margin-right: 2rem;
+  }
+}
