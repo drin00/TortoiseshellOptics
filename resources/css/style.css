@@ -33,6 +33,9 @@ nav a{
   color: white;
   padding-right: 2rem;
 }
+.summary{
+  display: none;
+}
 
 main{
   background-image: url("../images/glasses-bg.png");
@@ -96,7 +99,6 @@ main{
 }
 .aboutsubsection{
   width: 35%;
-  padding-left:
 }
 .philosophy{
     padding-right: 5%;
@@ -135,4 +137,85 @@ main{
     left: 0;
     margin-right: 2rem;
   }
+}
+
+
+@media only screen and (max-width: 480px){
+  main{
+    height: 17rem;
+    background-position: 20%;
+  }
+  .logo p{
+    display: none;
+  }
+  .subbanner{
+    position: relative;
+    padding: 1rem 0;
+    font-size: 1rem;
+    top: 9rem;
+    margin-right: 0;
+    width: 100%;
+  }
+  .summary{
+    display: block;
+  }
+  a.nav{
+    display: none;
+  }
+
+  .advantages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .img1{
+    padding-top: 3.77rem;
+  }
+  .img1, .img2{
+    padding-bottom: 1.54rem;
+  }
+  .img2, .img3{
+    height: 6rem;
+  }
+  .img3{
+    padding-bottom: 3.77rem;
+  }
+  .image{
+    margin: 0;
+  }
+  .image p{
+    font-size: 0.77rem;
+  }
+
+  .about{
+    display: block;
+    font-size: 0.77rem;
+  }
+  .heading, .body{
+    width: 100%
+  }
+  .aboutsubsection{
+    width: 100%;
+  }
+  .philosophy{
+      padding-right: 0;
+  }
+  .heading{
+    text-align: center;
+    padding: 0.5rem 0 0.5rem 0;
+  }
+  .body{
+    padding: 1rem 0 4rem 0.5rem;
+  }
+  .footer{
+    padding-left: 0;
+  }
+  .footer img{
+    margin: 0 auto;
+    padding-right: 0;
+  }
+  .footer p{
+    display: none;
+  }
+
 }
