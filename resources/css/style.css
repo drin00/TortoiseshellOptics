@@ -17,7 +17,6 @@ html{
   align-items: center;
   background-color: cadetblue;
   color: white;
-  margin-top: 1rem;
 }
 .logo{
   display: flex;
@@ -41,6 +40,7 @@ main{
   background-repeat: no-repeat;
   background-size: cover;
   height: 31rem;
+  padding-top: 1rem;
 }
 
 
